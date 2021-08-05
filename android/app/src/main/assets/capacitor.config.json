@@ -1,0 +1,6 @@
+{
+	"appId": "com.costume.app",
+	"appName": "costume-lk",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">costume-lk</string>
+    <string name="title_activity_main">costume-lk</string>
+    <string name="package_name">com.costume.app</string>
+    <string name="custom_url_scheme">com.costume.app</string>
+</resources>

@@ -1,0 +1,44 @@
+.checkout {
+  /* background-color: greenyellow; */
+  height: max-content;
+}
+
+.checkout__container{
+  padding:20px 20px 0px 20px;
+display: flex;
+flex-direction: column;
+}
+
+p.usrName{
+  margin-top: 10px;
+  font-size: 30px;
+  margin-bottom: auto;
+}
+
+div.checkout__ad {
+  margin-top: 10px;
+  margin-right: 10px;
+
+}
+
+.checkout__title {
+  font-size: 20px;
+  padding: 1px;
+  border-bottom: 1px solid lightgray;
+}
+
+/* For Tab view */
+@media only screen and (max-width: 1220px) {
+.checkout {
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+}
+.checkout__container{
+  flex-direction: column;
+}
+
+.checkout__right{
+  width: 100%;
+}
+}

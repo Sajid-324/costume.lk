@@ -1,0 +1,111 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  min-width: 150px;
+  background-color: #fafafa;
+  max-height: fit-content;
+  z-index: 1;
+}
+
+.product:hover {
+  background-color: rgb(254 215 0/80%);
+  box-shadow: 0px 2px 5px 0px rgb(34 37 39 / 100%);
+}
+
+.product > div > img {
+  max-width: 400px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+/* .product > button {
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+} */
+.btn > button:hover {
+  background-color: #a57a0d !important;
+}
+.product__info {
+  width: 100%;
+  height: fit-content;
+  margin-top: 0px;
+  font-weight: 500;
+  font-size: 20px;
+}
+div.product__info > p {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+.product__rating {
+  display: flex;
+}
+
+/* For Tablet Devices */
+@media only screen and (max-width: 900px) {
+  /* div.product__info > p {
+    width: 100%;
+    height: fit-content; */
+    /* background-color: tomato; */
+    /* font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0px;
+  } */
+  .product__info {
+  width: 100%;
+  height: fit-content;
+  margin-top: 0px;
+  font-weight: 500;
+  font-size: 15px;
+}
+  .product__price > strong {
+    margin-top: 0px;
+    font-size: 15px;
+  }
+  div.home__row.trow > strong {
+    font-size: 10px;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+  }
+}
+
+
+
+/* For SmartPhones */
+/* =================================================================== */
+@media only screen and (max-width: 500px) {
+
+ div.product__info > p {
+    width: 100%;
+    height: fit-content;
+    /* background-color: tomato; */
+    font-size: 15px;
+    font-weight: 400;
+    /* margin-bottom: 10px; */
+  }
+  p.product__price > strong {
+    margin-top: 0px;
+    font-size: 15px;
+  }
+  p.product__price{
+    height: 10px;
+  }
+  div.home__row.trow > strong {
+    font-size: 10px;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+  } 
+}
